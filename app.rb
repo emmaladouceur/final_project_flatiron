@@ -2,11 +2,17 @@ require 'bundler'
 Bundler.require
 require './models/search'
 
+
 class MyApp < Sinatra::Base
 
-
 	get '/' do
-		@twitter = Search.new
 		erb :index
+
 	end
+
+	post '/results' do
+		@twitter = Search.new(params[:hashtag])
+		erb :results
+	end
+
 end
