@@ -1,6 +1,53 @@
-<form action='/results' method='POST'>
-	<input type='text' name='hashtag'>
-	<input type='submit'>
-</form>
+<!DOCTYPE html> 
+	<html lang="en"> 
+	<head> 
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		
+		<title> Tweet Counter </title> 
+
+	</head> 
+
+	<body> 
+		<div class="container-fluid">
+			<h1 class="text-center">Welcome to Tweet Counter!!!</h1>
+	   		<h2 class="text-center">What do you want to search?</h2>
+			<div class="row">
+				<div class="col-md-6"> Search something
+					<!-- LEFT COLUMN BEGINS ...........-->
+					<table bgcolor="blue" border="2"><tr><th>
+	 				<form action="/results" method="POST">
+	 					<input type="text" name="hashtag">
+	 					<input type="Submit">
+	 				</form> 
+	 			</th></tr></table>
+
+	 				<!-- LEFT COLUMN ENDS -->
+				</div>
+				<div class="col-md-6"> 
+					<!-- RIGHT COLUMN BEGINS!!!!!!!!!!!!! -->
+					 <img class="picture" src="https://g.twimg.com/Twitter_logo_blue.png" height="300" width="300">
+
+					 <!-- RIGHT COLUMN ENDS!!!! -->
+				</div>
+			</div>
+		</div>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+   	</body> 
 
 
+
+
+
+
+
+</html> 
