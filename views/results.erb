@@ -1,1 +1,25 @@
-<%= @twitter.tweet_count %>
+<link rel="stylesheet" type="text/css" href="results_stylesheet.css">
+
+
+<!DOCTYPE html> 
+	<html lang="en"> 
+	<head> 
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		
+		<title> Tweet Counter </title> 
+
+	</head> 
+
+	<body> 
+<h1 class="text-center"> #<%= @searched_hashtag %> Has Been Tweeted 
+	<%= @twitter.tweet_count %> Times </h1>
+<div id="image-center">
+<img class="text-center" src="https://g.twimg.com/Twitter_logo_blue.png" height="300" width="300">
+</div>
+
+	</body> 

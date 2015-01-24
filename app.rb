@@ -12,6 +12,7 @@ class MyApp < Sinatra::Base
 
 	post '/results' do
 		@twitter = Search.new(params[:hashtag])
+		@searched_hashtag = params[:hashtag]
 		erb :results
 	end
 

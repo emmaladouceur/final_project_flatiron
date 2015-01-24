@@ -5,9 +5,13 @@ h3{
 }
 
 body{
-	background-color: green; 
+	background-color: #ACD6FF; 
 }
 
 div{
 	padding: 10px 15px;
+}
+
+h1{
+	font-family: Arial;
 }
