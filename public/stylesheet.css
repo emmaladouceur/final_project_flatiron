@@ -5,6 +5,9 @@ h3{
 }
 
 body{
-	background-color: white; 
+	background-color: green; 
 }
 
+div{
+	padding: 10px 15px;
+}
