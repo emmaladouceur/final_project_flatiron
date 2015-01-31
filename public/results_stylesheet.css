@@ -1,3 +1,5 @@
+
+
 .text-center {
 	font-family: Arial; 
 	color: blue;
@@ -6,3 +8,9 @@
 #image-center {
 	text-align: center;
 }
+
+body {
+	background-color: #ACD6FF;
+}
+
+
